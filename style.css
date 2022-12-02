@@ -1,0 +1,72 @@
+/* @theme yumekiti */
+
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+section * {
+  color: #5f6c7b;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+section {
+  background: #fff;
+
+  width: 100%;
+  height: 100%;
+}
+
+section h1 {
+  font-size: 200%;
+  color: #094067;
+  font-weight: normal;
+}
+
+section h2 {
+  font-size: 180%;
+  font-weight: normal;
+}
+
+section li {
+  font-size: 120%;
+}
+
+section::after {
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+}
+
+/* headline */
+section.headline {
+  text-align: center;
+  background-image: url(https://raw.githubusercontent.com/yumekiti/slides/main/assets/headline-backgorung.svg);
+  background-size: cover;
+}
+
+/* general */
+section.general {
+  background-image: url(https://raw.githubusercontent.com/yumekiti/slides/main/assets/general-backgorung.svg);
+  background-size: cover;
+  padding-top: 15%;
+}
+
+section.general h1 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+section.general h2 {
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+section.general strong {
+  color: #094067;
+  font-size: 120%;
+}
