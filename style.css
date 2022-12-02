@@ -40,13 +40,13 @@ section::after {
 /* headline */
 section.headline {
   text-align: center;
-  background-image: url(https://raw.githubusercontent.com/yumekiti/slides/main/assets/headline-backgorung.svg);
+  background-image: url(https://raw.githubusercontent.com/yumekiti/marp_yumekiti_theme/main/assets/headline-backgorung.svg);
   background-size: cover;
 }
 
 /* general */
 section.general {
-  background-image: url(https://raw.githubusercontent.com/yumekiti/slides/main/assets/general-backgorung.svg);
+  background-image: url(https://raw.githubusercontent.com/yumekiti/marp_yumekiti_theme/main/assets/general-backgorung.svg);
   background-size: cover;
   padding-top: 15%;
 }
