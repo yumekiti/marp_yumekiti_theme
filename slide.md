@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: yumekiti
+theme: local
 paginate: true
 size: 16:9
 ---
@@ -11,16 +11,15 @@ _class: headline
 
 # スライドのタイトル
 
-
 ---
 
 <!--
 _class: general
 -->
 
-# 力をいれたこと
+## スライドの説明
 
-## **制作・運用**する技術
+### ここに説明を書く
 
 ---
 
@@ -30,24 +29,10 @@ _header: "Qiita"
 _footer: "スライドasddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 -->
 
-# スライド 1
+## スライド 1
 
-## 制作だけでは見えないことが
-## 運用することで**可視化**できる
-
----
-
-<!--
-_class: general
-_header: "Qiita"
-_footer: "スライド"
--->
-
-# スライド 2
-
-- 設計ミス
-- ユーザの意見
-- セキュリティ
+### 文字が
+### \*\*で囲むことで**強調**できる
 
 ---
 
@@ -57,11 +42,25 @@ _header: "Qiita"
 _footer: "スライド"
 -->
 
-# スライド 3
+## スライド 2
 
-## hoge
-## fuga
-## piyo
+- hoge
+- fuga
+- piyo
+
+---
+
+<!--
+_class: general
+_header: "Qiita"
+_footer: "スライド"
+-->
+
+## スライド 3
+
+### hoge
+### fuga
+### piyo
 
 ---
 
@@ -69,4 +68,4 @@ _footer: "スライド"
 _class: general
 -->
 
-# 完
+### 完

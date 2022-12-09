@@ -1,4 +1,4 @@
-/* @theme yumekiti */
+/* @theme local */
 
 @import "default";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
@@ -22,6 +22,12 @@ section h1 {
 }
 
 section h2 {
+  font-size: 200%;
+  color: #094067;
+  font-weight: normal;
+}
+
+section h3 {
   font-size: 180%;
   font-weight: normal;
 }
@@ -51,13 +57,13 @@ section.general {
   padding-top: 15%;
 }
 
-section.general h1 {
+section.general h2 {
   position: absolute;
   top: 10%;
   left: 5%;
 }
 
-section.general h2 {
+section.general h3 {
   font-weight: normal;
   display: flex;
   justify-content: center;
