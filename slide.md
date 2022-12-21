@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: local
+theme: yumekiti
 paginate: true
 size: 16:9
 ---
@@ -45,6 +45,7 @@ _footer: "スライド"
 ## スライド 2
 
 - hoge
+  - こんにちは
 - fuga
 - piyo
 
