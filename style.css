@@ -1,7 +1,7 @@
 /* @theme yumekiti */
 
 @import "default";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
 
 section * {
   color: #5f6c7b !important;
