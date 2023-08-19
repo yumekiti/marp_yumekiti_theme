@@ -53,7 +53,7 @@ section.headline {
 
 /* general */
 section.general {
-  background-image: url(https://raw.githubusercontent.com/yumekiti/marp_yumekiti_theme/main/assets/general-backgorung.svg) !important;
+  background-image: url('./assets/general-backgorung.svg') !important;
   background-size: cover !important;
   padding-top: 15% !important;
 }
