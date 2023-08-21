@@ -26,6 +26,11 @@ section h2 {
 }
 
 section h3 {
+  font-size: 200% !important;
+  color: #094067 !important;
+}
+
+section h4 {
   font-size: 180% !important;
 }
 
@@ -53,18 +58,24 @@ section.headline {
 
 /* general */
 section.general {
-  background-image: url('./assets/general-backgorung.svg') !important;
+  background-image: url(https://raw.githubusercontent.com/yumekiti/marp_yumekiti_theme/main/assets/general-backgorung.svg) !important;
   background-size: cover !important;
   padding-top: 15% !important;
 }
 
 section.general h2 {
   position: absolute !important;
-  top: 10% !important;
+  top: 8% !important;
   left: 5% !important;
 }
 
 section.general h3 {
+  position: absolute !important;
+  top: 8% !important;
+  left: 5% !important;
+}
+
+section.general h4 {
   font-weight: normal !important;
   display: flex !important;
   justify-content: center !important;
